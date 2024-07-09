@@ -10,3 +10,15 @@ Run "npm start" in terminal
 Routing - 
     Install Routing package in <application_name> folder 
         i.e. npm i react-router-dom 
+
+
+Links for our Routes
+    - import { Link } from react-router-dom
+    - When we use "Link", then we need to write our component insite "BrowserRouter" tag.
+        - For this we need to import "BrowserRouter" i.e. 
+            import { BrowserRouter } from 'react-router-dom'
+
+Note :
+    - Don't use anchor tag. Otherwise page will refresh.
+    - Instead of anchor tag for our links, we use "Link" from react-router-dom package. 
+

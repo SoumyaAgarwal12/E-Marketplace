@@ -1,15 +1,17 @@
 import './App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MainHeader = ()=>{     // Function name must be in capital to use in App.js main file. 
     return (
         <div>
             {/* <h1>Hello from Components</h1> */}
             <ul className='headerList'>
-                <ul>Home</ul>
-                <ul>About</ul>
-                <ul>Contact</ul>
-                <ul>Logout</ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/products">Products</Link></li>
+                <li className='logout'><Link to="/logout">Logout</Link></li>
             </ul>
         </div>
     );

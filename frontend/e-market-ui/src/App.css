@@ -15,14 +15,24 @@
   background-color: cadetblue;
 }
 
-.headerList ul{
+.headerList li {
+  display: inline;
   margin: 0px 45px;
-  cursor: pointer;
-  color: white;
 }
 
-.headerList ul:hover{
+.headerList li a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.headerList li a:hover{
   color: blue;
+}
+
+.logout{
+  position: absolute;
+  right: 0px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

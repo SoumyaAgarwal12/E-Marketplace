@@ -1,11 +1,14 @@
 import './App.css';
 import MainHeader from './mainHeader';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-        <MainHeader />
-        <h1>Hello</h1>
+        <BrowserRouter>
+          <MainHeader />
+          <h1>Hello</h1>
+        </BrowserRouter>
     </div>
   );
 }
