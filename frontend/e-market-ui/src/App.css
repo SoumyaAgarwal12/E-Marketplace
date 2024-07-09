@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.headerList{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 16px;
+  background-color: cadetblue;
+}
+
+.headerList ul{
+  margin: 0px 45px;
+  cursor: pointer;
+  color: white;
+}
+
+.headerList ul:hover{
+  color: blue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
