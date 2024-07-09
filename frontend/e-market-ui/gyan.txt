@@ -1,0 +1,12 @@
+Install React
+    npx create-react-app <application_name>
+
+cd <application_name>
+
+We have main files in 'src' folder - "App.js"(starting point)
+
+Run "npm start" in terminal 
+
+Routing - 
+    Install Routing package in <application_name> folder 
+        i.e. npm i react-router-dom 
