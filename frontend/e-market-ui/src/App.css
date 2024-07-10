@@ -30,9 +30,25 @@
   color: blue;
 }
 
-.logout{
+.signup{
   position: absolute;
   right: 0px;
+}
+
+.signUpForm input{
+  display: flex;
+  margin-left: 35%;
+  margin-top: 15px;
+  padding: 8px;
+  width: 290px;
+}
+
+.signUpForm button{
+  display: flex;
+  margin-left: 35%;
+  margin-top: 15px;
+  padding: 8px;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {

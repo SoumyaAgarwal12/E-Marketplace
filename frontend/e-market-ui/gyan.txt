@@ -22,3 +22,15 @@ Note :
     - Don't use anchor tag. Otherwise page will refresh.
     - Instead of anchor tag for our links, we use "Link" from react-router-dom package. 
 
+Routes (page for our links) :
+    - For this we need to import "Routes" i.e. 
+            import { Routes, Route } from 'react-router-dom'
+    - Write our routes in "Routes" tag i.e.
+        <Routes>
+            <Route path="/" element = {<h1>Home Page Component</h1>} />       // element attr takes component 
+        </Routes>
+
+Note :-
+    "Link to" and "path" attr should be same. 
+
+
