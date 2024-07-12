@@ -32,5 +32,6 @@ Routes (page for our links) :
 
 Note :-
     "Link to" and "path" attr should be same. 
+    If we are using routing in any component then call that component under "BrowserRouter" tag otherwise we can call from outsite like footer component. 
 
 

@@ -51,6 +51,14 @@
   cursor: pointer;
 }
 
+.footer{
+  background-color: cadetblue;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

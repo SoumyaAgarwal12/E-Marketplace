@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import React from 'react';
 
 const About = ()=>{     // Function name must be in capital to use in App.js main file. 

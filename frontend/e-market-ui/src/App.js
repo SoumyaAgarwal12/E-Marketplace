@@ -1,8 +1,9 @@
 import './App.css';
-import MainHeader from './mainHeader';
+import MainHeader from './components/mainHeader';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import About from './About';
-import SignUp from './SignUp';
+import About from './components/About';
+import SignUp from './components/SignUp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           </Routes>
           {/* <h1>Hello</h1> */}
         </BrowserRouter>
+
+        <Footer />     {/* No routing in footer file that's why we don't need to call in "BrowserRouter" tag.  */}
     </div>
   );
 }
