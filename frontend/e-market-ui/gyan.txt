@@ -34,4 +34,11 @@ Note :-
     "Link to" and "path" attr should be same. 
     If we are using routing in any component then call that component under "BrowserRouter" tag otherwise we can call from outsite like footer component. 
 
+Input Fields :-
+    - For getting values in input fields we use "useState" i.e.
+        import {useState} from 'react'
+
+Note :-
+    - The React 'useState' Hook allows us to track state in a function component.
+
 
