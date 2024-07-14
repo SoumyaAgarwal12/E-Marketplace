@@ -41,4 +41,15 @@ Input Fields :-
 Note :-
     - The React 'useState' Hook allows us to track state in a function component.
 
+For CORS Error :-
+    - Install npm package : npm install cors
+    - Include and use 'cors' package i.e. 
+            app.use(cors());
+
+For Navigation from one page to other :-
+    - import {useNavigate} from 'react-router-dom
+    - const navigate = useNavigate()
+    - navigate("/")          // Redirect to Home Page
+
+
 
