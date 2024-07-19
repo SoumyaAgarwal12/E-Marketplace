@@ -1,0 +1,11 @@
+Mongoose :
+
+    Schema -
+        - Mongoose provides a more organized approach to data modeling and validation. 
+        - The predefined structure minimizes the risk of errors and enhances data integrity, making it ideal for applications that necessitate strict adherence to data types and formats.
+
+    Model - 
+        - A Mongoose model is a wrapper of the Mongoose schema. 
+        - A Mongoose schema defines the document's properties, default values, types of data, validators, etc. 
+        - In contrast, a Mongoose model provides an interface for the database to create, query, update, delete records, and so on.
+        Means Models are responsible for creating and reading documents from the underlying MongoDB database. 
